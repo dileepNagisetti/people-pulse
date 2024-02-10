@@ -7,12 +7,14 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "clean": "rm -rf android ios"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@dev-plugins/react-navigation": "^0.0.5",
     "@expo/vector-icons": "^14.0.0",
     "@react-navigation/native": "^6.0.2",
     "expo": "~50.0.6",
